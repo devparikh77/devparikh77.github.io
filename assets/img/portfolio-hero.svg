@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract data science workspace visualization</title>
+  <desc id="desc">A composed dashboard-like scene with charts, data nodes, and notebooks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f9faf5"/>
+      <stop offset="1" stop-color="#dce9e3"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef5f1"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#1a2623" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="900" height="640" fill="url(#bg)"/>
+  <path d="M0 500 C160 430 250 555 405 494 C560 433 640 320 900 392 L900 640 L0 640 Z" fill="#cfe0d8"/>
+  <g filter="url(#shadow)">
+    <rect x="96" y="86" width="708" height="468" rx="18" fill="url(#panel)"/>
+    <rect x="96" y="86" width="708" height="56" rx="18" fill="#183f38"/>
+    <circle cx="134" cy="114" r="7" fill="#bd5d4a"/>
+    <circle cx="158" cy="114" r="7" fill="#f0c66a"/>
+    <circle cx="182" cy="114" r="7" fill="#6aa58f"/>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="140" y="186" width="236" height="136" rx="12" fill="#ffffff" stroke="#d8ded8"/>
+    <path d="M171 285 L214 246 L255 265 L306 211 L345 235" stroke="#23695b" stroke-width="8"/>
+    <path d="M171 286 L345 286" stroke="#d8ded8" stroke-width="4"/>
+    <path d="M171 218 L171 286" stroke="#d8ded8" stroke-width="4"/>
+    <circle cx="214" cy="246" r="8" fill="#bf8f2c" stroke="none"/>
+    <circle cx="306" cy="211" r="8" fill="#bd5d4a" stroke="none"/>
+  </g>
+  <g>
+    <rect x="424" y="186" width="336" height="136" rx="12" fill="#ffffff" stroke="#d8ded8"/>
+    <rect x="464" y="266" width="34" height="26" rx="4" fill="#bf8f2c"/>
+    <rect x="515" y="236" width="34" height="56" rx="4" fill="#23695b"/>
+    <rect x="566" y="212" width="34" height="80" rx="4" fill="#bd5d4a"/>
+    <rect x="617" y="248" width="34" height="44" rx="4" fill="#6aa58f"/>
+    <rect x="668" y="224" width="34" height="68" rx="4" fill="#183f38"/>
+    <path d="M452 292 H720" stroke="#d8ded8" stroke-width="4"/>
+  </g>
+  <g>
+    <rect x="140" y="360" width="288" height="134" rx="12" fill="#ffffff" stroke="#d8ded8"/>
+    <circle cx="206" cy="427" r="38" fill="none" stroke="#23695b" stroke-width="20"/>
+    <path d="M206 389 A38 38 0 0 1 241 441" fill="none" stroke="#bd5d4a" stroke-width="20"/>
+    <rect x="282" y="393" width="104" height="10" rx="5" fill="#d8ded8"/>
+    <rect x="282" y="422" width="82" height="10" rx="5" fill="#d8ded8"/>
+    <rect x="282" y="451" width="118" height="10" rx="5" fill="#d8ded8"/>
+  </g>
+  <g>
+    <rect x="476" y="360" width="284" height="134" rx="12" fill="#ffffff" stroke="#d8ded8"/>
+    <path d="M525 449 C560 390 603 476 637 416 C666 365 696 415 723 386" fill="none" stroke="#23695b" stroke-width="7"/>
+    <circle cx="525" cy="449" r="7" fill="#bf8f2c"/>
+    <circle cx="637" cy="416" r="7" fill="#bd5d4a"/>
+    <circle cx="723" cy="386" r="7" fill="#183f38"/>
+    <path d="M510 464 H728" stroke="#d8ded8" stroke-width="4"/>
+  </g>
+  <g fill="#183f38">
+    <circle cx="410" cy="326" r="5"/>
+    <circle cx="448" cy="326" r="5"/>
+    <circle cx="486" cy="326" r="5"/>
+  </g>
+</svg>
